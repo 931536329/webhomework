@@ -1,0 +1,131 @@
+
+.m-menu {
+	display: flex;
+}
+
+em {
+	flex: 1;
+}
+
+.m-menu>div {
+	background-color: lightgray;
+	border:      1px solid gray;
+	width:                 50px;
+	height:                20px;
+	
+}
+
+.m-mbox {
+	background-color:  lightblue;
+ 	width:                 600px;
+ 	height:                480px;
+ 	padding:                10px;
+ 	margin:               0 auto;
+}
+
+.m-board {
+	background-color:  lightblue;
+	border:       1px solid gray;
+	width:                 600px;
+	height:                450px;
+	
+}
+
+.m-board>div {
+	width:   600px;
+	height:  450px;
+}
+
+.m-board1 {
+	background-color:    red;
+	justify-content:  center;
+	align-content:    center;
+	display:            flex;
+	flex-wrap:          wrap;
+	
+}
+
+.m-bigboard {
+
+}
+
+.m-board1>li {
+	background: url("../img/main.png");
+	list-style:  none;
+	width:      150px;
+	height:     150px;
+	margin:      20px;
+}
+
+.bigboard {
+	background: rgba(0, 0, 0,.9);
+	position:   absolute;
+	object-fit:  contain;
+	width:         600px;
+	height:        450px;
+	
+	
+
+}
+
+
+.m-board2 {
+	background-color: blue;
+
+}
+
+.m-board3 {
+	background-color:       yellow;
+	justify-content: space-between;
+	flex-direction:         column;
+	display:                  flex;
+	
+	
+}
+
+.m-board3-list {
+	flex-direction:   column;
+	justify-content:  center;
+	display:            flex;
+	align-items:      center;
+	
+}
+
+.m-board3-list>li {
+	background-color:  lightgray;
+	border:       2px solid gray;
+	margin-top:             20px;
+	height:                 30px;
+	width:                 500px;
+	display:                flex;
+	align-items:          center;
+}
+
+.m-board3-list>li :nth-child(1){
+	text-align:  center;
+	width:          10%;
+}
+
+.m-board3-list>li :nth-child(2){
+	border-left:   2px solid gray;
+	border-right:  2px solid gray;
+	width:                    80%;
+	height:                  30px;
+}
+
+.m-board3-list>li :nth-child(3) {
+	display:            flex;
+	align-items:      center;
+	justify-content:  center;
+	height:             32px;
+	width: 				 10%;
+	font-size: 			15px;
+}
+
+.m-board3-add{
+	align-self:  flex-end;
+	margin-bottom:   20px;
+	margin-right:    20px;
+	font-size:       18px;
+	width:           80px;
+}

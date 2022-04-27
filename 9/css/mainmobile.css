@@ -1,0 +1,411 @@
+
+@media screen and (max-width: 600px){
+em {
+	flex: 1;
+}
+body {
+	background-color: lightgray;
+}
+
+li {
+	list-style: none;
+	word-wrap: break-word;
+}
+div {
+	word-wrap: break-word;
+}
+#from-control {
+	border: 0;
+}
+
+.container>div {
+	background-color: lightgray;
+	margin: 20px;
+}
+
+#l1 {
+	background-color: rgb(6, 193, 174);
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+#l1-hd {
+	display: flex;
+	justify-content: space-around;
+}
+#l1-hd>select {
+	background-color: rgb(6, 193, 174);
+}
+#l1-bd {
+	background-color: rgb(5, 164, 148);
+}
+#l1-ft {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#tip {
+	content: url("../img/tip.png");
+	width:          16px;
+	height:         16px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+#l2 {
+	background-color: white;
+	margin-bottom: 10px;
+}
+#l2>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#l2>div>img {
+	content: url("../img/tip.png");
+	width:          px;
+	height:         48px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+
+#l3 {
+	font-size: 16px;
+	display: flex;
+	background-color: lightgray;
+	margin-bottom: 10px;
+}
+
+#l3-l {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+}
+
+
+#l3-l>img {
+	content: url("../img/tip.png");
+	width:          90px;
+	height:         90px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+#l3-r-t {
+	display: flex;
+	justify-content: space-between;
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+}
+
+#l3-r-t>img {
+	content: url("../img/tip.png");
+	width:          64px;
+	height:         64px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+#l3-r-b-l>img {
+	content: url("../img/tip.png");
+	width:          48px;
+	height:         48px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+#l3-r-b {
+	display: flex;
+}
+#l3-r-b-l {
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+}
+#l3-r-b-r {
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+}
+
+#l4 {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+#l4>div {
+	font-size: 20px;
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#l4>div>img {
+	content: url("../img/tip.png");
+	width:          96px;
+	height:         96px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+#l5 {
+	margin-bottom: 0;
+}
+#l5>li {
+	background-color: white;
+	border-top: 3px solid rgb(221, 216, 206);
+	padding: 10px;
+}
+
+#l5>div {
+	border-top: 3px solid rgb(221, 216, 206);
+	background-color: white;
+	padding: 10px;
+	display: flex;
+	align-items: flex-end;
+}
+
+#l5-l>img {
+	content: url("../img/tip.png");
+	width:          96px;
+	height:         96px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+#l5-l {
+	display: flex;
+	flex-direction: row;
+	/*align-items: flex-end;*/
+}
+#l5-l>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#l5-l-b {
+	display: flex;
+}
+#l5-r {
+	justify-self: end;
+	display: flex;
+}
+#l5-r>div {
+	margin-right: 10px;
+}
+#l6 {
+	background-color: rgb(160, 197, 232);
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 0;
+	display: flex;
+	color: rgb(78, 177, 205);
+}
+}
+em {
+	flex: 1;
+}
+body {
+	background-color: lightgray;
+}
+
+li {
+	list-style: none;
+	word-wrap: break-word;
+}
+div {
+	word-wrap: break-word;
+}
+.container>div {
+	background-color: lightgray;
+	margin: 20px;
+}
+
+#l1 {
+	background-color: rgb(6, 193, 174);
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+#l1-hd {
+	display: flex;
+	justify-content: space-around;
+}
+#l1-hd>select {
+	background-color: rgb(6, 193, 174);
+}
+#l1-bd {
+	background-color: rgb(5, 164, 148);
+}
+#l1-ft {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#tip {
+	content: url("../img/tip.png");
+	width:          16px;
+	height:         16px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+#l2 {
+	background-color: white;
+	margin-bottom: 10px;
+}
+#l2>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#l2>div>img {
+	content: url("../img/tip.png");
+	width:          px;
+	height:         48px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+
+#l3 {
+	font-size: 16px;
+	display: flex;
+	background-color: lightgray;
+	margin-bottom: 10px;
+}
+
+#l3-l {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+}
+
+
+#l3-l>img {
+	content: url("../img/tip.png");
+	width:          90px;
+	height:         90px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+#l3-r-t {
+	display: flex;
+	justify-content: space-between;
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+}
+
+#l3-r-t>img {
+	content: url("../img/tip.png");
+	width:          64px;
+	height:         64px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+#l3-r-b-l>img {
+	content: url("../img/tip.png");
+	width:          48px;
+	height:         48px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+#l3-r-b {
+	display: flex;
+}
+#l3-r-b-l {
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+}
+#l3-r-b-r {
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+}
+
+#l4 {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+#l4>div {
+	font-size: 20px;
+	border: 3px solid rgb(221, 216, 206);
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#l4>div>img {
+	content: url("../img/tip.png");
+	width:          96px;
+	height:         96px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+#l5 {
+	margin-bottom: 0;
+}
+#l5>li {
+	background-color: white;
+	border-top: 3px solid rgb(221, 216, 206);
+	padding: 10px;
+}
+
+#l5>div {
+	border-top: 3px solid rgb(221, 216, 206);
+	background-color: white;
+	padding: 10px;
+	display: flex;
+	align-items: flex-end;
+}
+
+#l5-l>img {
+	content: url("../img/tip.png");
+	width:          96px;
+	height:         96px;
+	margin-left:     8px;
+	margin-right:    8px;
+}
+
+#l5-l {
+	display: flex;
+	flex-direction: row;
+	/*align-items: flex-end;*/
+}
+#l5-l>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#l5-l-b {
+	display: flex;
+}
+#l5-r {
+	justify-self: end;
+	display: flex;
+}
+#l5-r>div {
+	margin-right: 10px;
+}
+#l6 {
+	background-color: rgb(160, 197, 232);
+	padding: 10px;
+	font-size: 20px;
+	margin-top: 0;
+	display: flex;
+	color: rgb(78, 177, 205);
+}

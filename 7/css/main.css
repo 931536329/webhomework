@@ -1,0 +1,319 @@
+li {
+	list-style: none;
+}
+
+em {
+	flex: 1;
+}
+
+.m-bk {
+	background: url("../img/bk.png") no-repeat center;
+	position: absolute;
+	height:      349px;
+	left:            0;
+	right:           0;
+	opacity:         0;
+}
+
+.mbox {
+	padding-left:       8px;
+	padding-right:     13px;
+	padding-top:       13px;
+	height:           349px;
+	width:            685px;
+	margin:            auto;
+	display:           flex;
+	flex-direction:  column;
+}
+
+.tip{
+	background: url("../img/tip.png") no-repeat;
+	width:          16px;
+	height:         16px;
+	margin-left:     3px;
+	margin-right:    8px;
+} 
+
+.m-hd {
+	height: 97px;
+}
+
+.m-hd-l1 {
+    display: flex;
+}
+
+.m-hd-l1>li {
+	justify-content:  center;
+	align-items:      center;
+    display:          flex;
+	color:            rgb(255, 255, 255);
+    background-color: rgb(34, 140, 199);
+    border-top-right-radius:  5px;
+    border-top-left-radius:   5px;
+    font-size: 14px;
+    width:     80px;
+    height:    24px;
+
+}
+
+.m-hd-l1>span {
+	color: white;
+	background-color: rgb(255, 64, 2);
+	text-align:       center;
+	font-size:          13px;
+	margin-bottom:       5px;
+	margin-left:         5px;
+	border-radius:       5px;
+	width:              19px;
+	height:             19px;
+}
+
+
+.m-hd-l1>div {
+	border: 2px solid lightgray;
+	color:  rgb(34, 140, 199);
+	align-items:    center;	
+	display:          flex;
+	padding-left:      5px;
+	padding-right:     6px;
+	font-size:        13px;
+	border-radius:     5px;
+	margin-top:       -3px;
+	height:           19px;
+	font-weight:       600;
+}
+
+.m-hd-l1>div>div {
+
+}
+
+.m-hd-l2 {
+	padding-bottom:  4px;
+	border-left:     2px solid lightgray;
+	border-right:    2px solid lightgray;
+	border-bottom:   2px solid lightgray;
+}
+
+.m-hd>li {
+	height:    4px;
+	width:    684;
+	display:  flex;
+	background-color: rgb(34, 140, 199);
+}
+
+.m-hd-l2>li>span {
+	display: flex;
+}
+
+.m-hd-l2>div {
+	padding-left: 5px;
+}
+
+.m-hd-l3 {
+	background-color:         rgb(255, 251, 222);
+	border-left:      2px solid rgb(206,203,206);
+	border-right:     2px solid rgb(206,203,206);
+	border-bottom:    2px solid rgb(206,203,206);
+	display:              flex;
+	padding-bottom:        3px;
+	justify-content:  flex-end;
+}
+
+.m-hd-l3>li {
+	color:             rgb(34, 140, 199);
+	margin-right:      15px;
+	font-size:         13px;
+	display:           flex;
+}
+
+.m-bd {
+	display:           flex;
+	flex-direction:  column;
+	margin-top:         6px;
+	display:           flex;
+}
+.m-bd-l1 {
+	display: flex;
+}
+.m-bd-l1>li {
+	background-color:  rgb(206, 220, 232);
+	display:             flex;
+	align-items:       center;
+	justify-content:   center;
+	height:              15px;
+	font-size:           10px;
+	margin-left:          1px;
+	margin-bottom:        1px;
+	letter-spacing:       5px;
+}
+
+.m-bd-st {
+	background-color:          rgb(242, 242, 242);
+	border-left:       2px solid rgb(206,203,206);
+	border-right:      2px solid rgb(206,203,206);
+	border-bottom:     2px solid rgb(206,203,206);
+	display:             flex;
+	height:              27px;
+	align-items:       center;
+}
+.m-bd-st>li {
+	display:              flex;
+	width:               117px;
+	justify-content:  flex-end;
+	align-items:        center;
+}
+
+.m-bd-veh {
+	display: flex;
+}
+
+.time {
+	display:             flex;
+	flex-direction:    column;
+	justify-content:   center; 
+	align-items:       center;
+	margin-top:           2px;
+	width:               94px;
+	height:              42px;
+}
+
+.m-bd-veh-bus {
+	margin-left:         9px;
+	width:              75px;
+	display:            flex;
+	justify-content:  center;
+	align-items:      center;
+}
+
+.m-bd-veh-bus-cutline {
+	border-left:   2px solid rgb(150, 199, 216); 
+	border-right:  2px solid rgb(150, 199, 216);
+	width:          3px; 
+	height:        46px;
+	margin-left:  -28px;
+}
+
+
+.m-bd-veh>li {
+	border-left:      1px solid rgb(206,203,206);
+	font-size:          15px;
+	display:            flex;
+	align-items:      center;
+	justify-content:  center;
+}
+
+.m-bd-veh>span {
+	color:  rgb(34, 140, 199);
+	margin-top:        5px;
+	margin-bottom:     0px;
+	font-size:        12px;
+	width:           175px;
+	margin-right:     50px;
+	word-wrap:  break-word;
+}
+
+.m-bd-veh :nth-child(4) {
+	width:64px;
+}
+
+.m-bd-veh :nth-child(5) {
+	width:69px;
+}
+
+.m-bd-veh :nth-child(6) {
+	width:80px;
+}
+
+.m-bd-veh :nth-child(7) {
+	width:64px;
+}
+
+
+
+.m-bd-md {
+	height:         44px;
+	display:        flex;
+	align-items:  center;
+	border: 2px solid rgb(206,203,206);
+}
+
+.m-bd-md>div {
+	display:           flex;
+	flex-direction:  column;
+	justify-self:    center;
+}
+
+.m-bd-md>div>li {
+	display:              flex;
+	justify-content:  flex-end;
+}
+
+.m-bd-md>div>li>u {
+	color:  rgb(34, 140, 199);
+	font-size:           11px;
+	margin-right:        10px;
+}
+
+.m-bd-veh-train {
+	display:            flex;
+	justify-content:  center;
+	align-items:      center;
+}
+
+.m-bd-veh-train-cutline {
+	width:                 6px;
+	height:               44px;
+	display:              flex;
+	flex-direction:     column;
+	justify-content:  flex-end;
+	align-items:        center;
+	margin-left:           9px;
+}
+
+.m-bd-veh-train-cutline>li {
+	background-color: rgb(255, 255, 255);
+	width:          2px;
+	height:         6px;
+	margin-top:     5px;
+	margin-bottom:  2px;
+
+}
+
+.m-bd-veh-train-s {
+	color:  rgb(34, 140, 199);
+	margin-left:       10px;
+	margin-top:         5px;
+	margin-bottom:      0px;
+	margin-right:      50px;
+	font-size:         12px;
+	width:            182px;
+	display:           flex;
+	flex-direction:  column;
+}
+
+.m-bd-veh-train-s>span {
+	border-radius:  5px;
+	width:         50px;
+	text-align: center;
+	background-color:  rgb(34, 140, 199);
+	color:            rgb(255, 255, 255);
+}
+
+.m-bd-ed {
+	display:        flex;
+	align-items:  center;
+	height:         44px;
+	padding-left:   66px;
+	border: 2px solid rgb(206,203,206);
+}
+
+.m-bd-ed>div>li {
+	display:              flex;
+	justify-content:  flex-end;
+}
+
+.m-bd-ed>div>li>u {
+	color:  rgb(34, 140, 199);
+	font-size:           11px;
+	margin-right:        10px;
+}
